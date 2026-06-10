@@ -32,7 +32,7 @@ npx playwright test
 
 ### Run a specific test file
 ```bash
-npx playwright test tests/search-results.spec.ts
+npx playwright test search-results.spec.ts
 ```
 
 ### Run a single test by name

@@ -6,7 +6,6 @@ const { expect } = require('@playwright/test');
 dotenv.config();
 
 export const capabilities = {
-    testDir: './tests',
   'browserName': 'Chrome', // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
   'browserVersion': 'latest',
   'LT:Options': {
