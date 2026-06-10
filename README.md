@@ -68,6 +68,6 @@ npx playwright show-report
 npm install
 npx playwright install
 npx playwright test
-npx playwright test tests/search-results.spec.ts
+npx playwright test search-results.spec.ts
 npx playwright show-report
 ```
